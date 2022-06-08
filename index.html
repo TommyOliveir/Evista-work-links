@@ -1,24 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Front-end-vocabulary</title>
 </head>
+
 <body>
-    <div>
+    <div id="hero">
         <h1>Front End Development</h1>
-        <p>Vocabulary and Remiders</p>
-        <h2>Remiders</h2>
-        <h3>CSS</h3>
-        <p>* {<br>
-            box-sizing: border-box;  <br>
-        }</p>
-        <p>body {<br>
-           margin: 0;<br>
-        }</p>
-    </div>
-    
+        <p class="sub-title">Vocabulary and Remiders</p>
+    </div> <!-- hero -->
+    <div class="container container-flex">
+        <div class="html-section section">
+            <h3>html</h3>
+        </div>
+
+        <div class="css-section section">
+            <h3>CSS</h3>
+            <div class="css-item">
+                <p class="para-title">include box size padding and margin</p>
+                <p>* {<br>
+                    box-sizing: border-box; <br>
+                    }</p>
+            </div>
+
+            <div class="css-item">
+                <p class="para-title">delete default margin and change to 0</p>
+                <p>body {<br>
+                    margin: 0;<br>
+                    }</p>
+            </div>
+
+
+
+            <div class="css-item">
+                <p class="para-title">select all inside of the element</p>
+                <p>selector * {<br>
+                    margin: 0;<br>
+                    }</p>
+            </div>
+
+            <div class="css-item">
+                <p class="para-title">select direct child inside of element</p>
+                <p>selector > * {<br>
+                    margin: 0;<br>
+                    }</p>
+            </div>
+
+        </div> <!-- css-section -->
+    </div> <!-- container -->
+
+
+
 </body>
+
 </html>
